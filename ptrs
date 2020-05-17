@@ -1,0 +1,13 @@
+#include<iostream.h>
+#include<conio.h>
+void main(){
+int *p;
+int arr[6];
+cout<<"enter elements"<<"\n";
+cin>>arr[6];
+p=arr;
+for( int i=0;i<6;i++){
+cout<<*p<<"\n";
+p++;
+}
+}
